@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom",
+            "es2016"
+        ],
+        "outDir": "./",
+        "rootDir": "./",
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": false,
+        "sourceMap": false,
+        "inlineSources": false,
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

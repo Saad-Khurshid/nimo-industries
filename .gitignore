@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Distribution folders
+dist/
+
+# Zip files
+*.zip
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+*.tfplan.*
+
+# Terraform .tfvars files that may contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Terraform module directories
+.terraform/
+
+# Ignore override files as they are usually used to override resources locally and should not be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# macOS system files
+.DS_Store
+
+# Ignore environment directories
+.env
